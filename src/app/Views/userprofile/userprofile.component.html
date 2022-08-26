@@ -1,0 +1,15 @@
+<div class="profile-content">
+   <app-info-user [data]="user"></app-info-user>
+    <div class="profile-recent-items">
+        <h3>Recently obtained</h3>
+    
+        <div class="profile-items-container">
+          <app-table-shop [data]="user"></app-table-shop>
+        </div>
+    </div>
+    
+    <div class="profile-recent-adoptions">
+        <h3>Your adoptions</h3>    
+       <app-table-adopter [data]="user"></app-table-adopter>
+    </div>    
+</div>

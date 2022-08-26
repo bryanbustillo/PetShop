@@ -1,0 +1,8 @@
+.card .card-image img {
+    height: 250px;      
+}
+
+.price{
+    display: flex;
+    justify-content: space-between;
+}
